@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: rgb(196, 241, 255);
 }
 
 .hero__img {
@@ -11,41 +12,135 @@
 }
 
 .hero__texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: var(--azul-claro);
     width: 100vw;
     z-index: 1;
+
+    padding: 24px 0;
 }
 
 .hero__titulo {
     font-style: normal;
     font-weight: 800;
     font-size: 32px;
-    line-height: 41px;
+    /* line-height: 41px; */
     text-align: center;
     letter-spacing: -0.005em;
     text-transform: capitalize;
 
+    color: #fff;
+
     width: 80vw;
     margin: 0 auto;
     max-width: 300px;
+
+    margin-bottom: 16px;
 }
 
 .hero__sub-titulo {
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
-    line-height: 15px;
+    /* line-height: 15px; */
     text-align: center;
     text-transform: capitalize;
+
+    color: #fff;
 
     width: 80vw;
     margin: 0 auto;
 
     max-width: 300px;
+
+    margin-bottom: 24px;
+}
+
+.hero__btn {
+    text-align: center;
+    border: no;
+    border: none;
+    background-color: var(--laranja-escuro);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+
+    text-transform: capitalize;
+
+    padding: .5rem 2rem;
+    
+    box-shadow: 0px 4px 4px rgba(43, 64, 112, 0.25);
+    border-radius: .5rem;
+
+    transition: all ease-in-out 250ms;
+
+
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+.hero__btn:hover {
+    cursor: pointer;
+    background-color: #eb9d03;
+    transition: all ease-in-out 250ms;
+    box-shadow: none;
+    transform:scale(99%) ;
 }
 
 @media screen and (min-width:744px){
     .hero {
+        flex-direction: row-reverse;
+        background-color: var(--azul-claro);
+        justify-content: center;
+    }
+    .hero__img {
+        height: 60vh;
+    }
+    .hero__texto {
+        width: 50%;
+        padding-left: 16px;
+    }
+    .hero__titulo {
+        font-size: 60px;
+        text-align: left;
+    }
+    .hero__sub-titulo {
+        font-size: 15px;
+        font-weight: 400;
+        text-align: left;
+    }
+    .hero__btn {
+        padding: 1rem 2rem;
+        font-size: 1rem;
+        font-weight: 700;
+        width: 300px;
+        margin-left: 60px;
+        
+    }
 
+}
+
+@media screen and (min-width:1200px){
+    
+    .hero__img {
+        width: 654px;
+        height: 897px;
+        left: 0px;
+        top: 80px;
+}
+    .hero__titulo {
+        font-size: 80px;
+    }
+    .hero__sub-titulo{
+        font-size: 20px;
+    }
+    .hero__btn {
+        padding: 2rem 3rem;
+        font-size: 1.5rem;
+        width: 400px;
+        margin-left: 164px;
     }
 }
