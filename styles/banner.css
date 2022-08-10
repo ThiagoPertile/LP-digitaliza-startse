@@ -1,0 +1,130 @@
+.banner {
+    background-color: var(--laranja-escuro);
+    padding: 64px 24px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    z-index: 1;
+}
+
+.banner__titulo {
+    font-style: normal;
+    font-weight: 950;
+    font-size: 32px;
+    line-height: 41px;
+    text-align: center;
+    /* letter-spacing: -0.005em; */
+    text-transform: capitalize;
+
+    color: #fff;
+
+    margin-bottom: 24px;
+}
+
+.banner__lista {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.banner__item {
+   display: flex;
+   align-items: center;
+   justify-items: center;
+
+   font-size: 16px;
+   font-weight: 600;
+
+    text-align: start;
+
+   margin-bottom: 24px;
+
+}
+
+.banner__item i {
+    margin-right: 8px;
+    font-size: 32px;
+}
+
+.banner__btn {
+    align-self: center;
+    text-align: center;
+    border: no;
+    border: none;
+    background-color: var(--azul-claro);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+
+    text-transform: capitalize;
+
+    width: 200px;
+    padding: .5rem 2rem;
+    
+    box-shadow: 0px 4px 4px rgba(43, 64, 112, 0.25);
+    border-radius: .5rem;
+
+    transition: all ease-in-out 250ms;
+
+
+    text-decoration: none;
+    color: #ffffff;
+
+    margin-top: 16px;
+}
+
+
+.banner__btn:hover {
+    cursor: pointer;
+    background-color: #3268ff;
+    transition: all ease-in-out 250ms;
+    box-shadow: none;
+    transform:scale(99%) ;
+}
+
+@media screen and (min-width:744px) {
+    .banner__titulo {
+        font-size: 48px;
+        margin-bottom: 48px;
+    }
+    .banner__lista {
+        width: 350px;
+    }
+    .banner__item {
+        font-size: 20px;
+    }
+    .banner__btn {
+        align-self: center;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .banner {
+        height: 60vh;
+        justify-content: center;
+    }
+    .banner__conteudo {
+        display: flex;
+        flex-direction: row;
+        max-width: 1200px;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .banner__titulo {
+        font-size: 64px;
+        max-width: 50%;
+        line-height: 60px;
+        /* margin-left: 128px; */
+    }
+    .banner__item {
+        font-size: 24px;
+    }
+    .banner__btn {
+        width: 350px;
+        padding: 24px 32px;
+    }
+}
