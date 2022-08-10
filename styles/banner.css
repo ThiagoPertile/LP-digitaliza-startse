@@ -126,5 +126,7 @@
     .banner__btn {
         width: 350px;
         padding: 24px 32px;
+        font-weight: 700;
+        font-size: 24px;
     }
 }
