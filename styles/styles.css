@@ -1,6 +1,7 @@
 @import url(cabecalho.css);
 @import url(hero.css);
 @import url(banner.css);
+@import url(form.css);
 
 :root {
     --laranja-escuro: #FFAA00;
