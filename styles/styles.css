@@ -1,0 +1,15 @@
+@import url(cabecalho.css);
+@import url(hero.css);
+
+:root {
+    --laranja-escuro: #FFAA00;
+    --azul-escuro:#0049F1;
+    --azul-claro: #618DF2;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    height: 100vh;
+    overflow: hidden;
+}

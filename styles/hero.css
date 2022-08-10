@@ -1,0 +1,51 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero__img {
+    height: 40vh;
+    transform: translateY(5px);
+    z-index: -100;
+}
+
+.hero__texto {
+    background-color: var(--azul-claro);
+    width: 100vw;
+    z-index: 1;
+}
+
+.hero__titulo {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 41px;
+    text-align: center;
+    letter-spacing: -0.005em;
+    text-transform: capitalize;
+
+    width: 80vw;
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+.hero__sub-titulo {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: capitalize;
+
+    width: 80vw;
+    margin: 0 auto;
+
+    max-width: 300px;
+}
+
+@media screen and (min-width:744px){
+    .hero {
+
+    }
+}
