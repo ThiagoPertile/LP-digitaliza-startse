@@ -3,6 +3,7 @@
 @import url(banner.css);
 @import url(form.css);
 @import url(beneficios.css);
+@import url(footer.css);
 
 :root {
     --laranja-escuro: #FFAA00;
