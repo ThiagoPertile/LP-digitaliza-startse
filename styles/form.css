@@ -110,7 +110,12 @@
     cursor: pointer;
 }
 
-
+.observacao {
+    color: #FFFFFF;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 16px;
+}
 
 @media screen and (min-width:744px) {
     .form {
