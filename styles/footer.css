@@ -2,6 +2,7 @@
     background-color: var(--laranja-escuro);
     margin-top: 24px;
     height: 100vv;
+    bottom: 0px;
 }
 
 .sociais__lista {
@@ -11,9 +12,7 @@
     gap: 16px;
 }
 
-.sociais__lista a {
-    
-}
+
 
 .sociais__lista a img:hover {
     transform: scale(1.1);
