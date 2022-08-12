@@ -6,7 +6,7 @@
     font-size: 24px;
     font-weight: 700;
     font-weight: 950;
-    text-transform: capitalize;
+   
 
     color: #FFFFFF;
     margin-bottom: 16px;
@@ -81,7 +81,7 @@
     font-weight: 600;
     font-size: 13px;
     line-height: 20px;
-    text-transform: capitalize;
+    
 
     color: #FFFFFF;
 
@@ -140,7 +140,7 @@
         /* identical to box height */
     
         letter-spacing: -0.005em;
-        text-transform: capitalize;
+        
     
         color: var#FFFFFF;
     
